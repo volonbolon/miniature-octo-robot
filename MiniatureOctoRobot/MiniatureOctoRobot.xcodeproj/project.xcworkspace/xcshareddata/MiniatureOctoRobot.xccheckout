@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30E16B81-DD7C-4915-B851-EC84F2266B9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MiniatureOctoRobot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>848FA1FC23197DDE8D176E70530B1FF0925FFAF9</key>
+		<string>github.com:volonbolon/miniature-octo-robot.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MiniatureOctoRobot/MiniatureOctoRobot.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>848FA1FC23197DDE8D176E70530B1FF0925FFAF9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:volonbolon/miniature-octo-robot.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>848FA1FC23197DDE8D176E70530B1FF0925FFAF9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>848FA1FC23197DDE8D176E70530B1FF0925FFAF9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>miniature-octo-robot</string>
+		</dict>
+	</array>
+</dict>
+</plist>

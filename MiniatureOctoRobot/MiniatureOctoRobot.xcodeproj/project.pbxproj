@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B09137E719F9838B00A21EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B09137E619F9838B00A21EBD /* main.m */; };
+		B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B09137E919F9838B00A21EBD /* AppDelegate.m */; };
+		B09137ED19F9838B00A21EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B09137EC19F9838B00A21EBD /* ViewController.m */; };
+		B09137F019F9838B00A21EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09137EE19F9838B00A21EBD /* Main.storyboard */; };
+		B09137F219F9838B00A21EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09137F119F9838B00A21EBD /* Images.xcassets */; };
+		B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09137F319F9838B00A21EBD /* LaunchScreen.xib */; };
+		B091380119F9838B00A21EBD /* MiniatureOctoRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B09137FB19F9838B00A21EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B09137D919F9838B00A21EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B09137E019F9838B00A21EBD;
+			remoteInfo = MiniatureOctoRobot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B09137E119F9838B00A21EBD /* MiniatureOctoRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniatureOctoRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09137E519F9838B00A21EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09137E619F9838B00A21EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B09137E819F9838B00A21EBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B09137E919F9838B00A21EBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B09137EB19F9838B00A21EBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B09137EC19F9838B00A21EBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B09137EF19F9838B00A21EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09137F119F9838B00A21EBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B09137F419F9838B00A21EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B09137FA19F9838B00A21EBD /* MiniatureOctoRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniatureOctoRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09137FF19F9838B00A21EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniatureOctoRobotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B09137DE19F9838B00A21EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09137F719F9838B00A21EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B09137D819F9838B00A21EBD = {
+			isa = PBXGroup;
+			children = (
+				B09137E319F9838B00A21EBD /* MiniatureOctoRobot */,
+				B09137FD19F9838B00A21EBD /* MiniatureOctoRobotTests */,
+				B09137E219F9838B00A21EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B09137E219F9838B00A21EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B09137E119F9838B00A21EBD /* MiniatureOctoRobot.app */,
+				B09137FA19F9838B00A21EBD /* MiniatureOctoRobotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B09137E319F9838B00A21EBD /* MiniatureOctoRobot */ = {
+			isa = PBXGroup;
+			children = (
+				B09137E819F9838B00A21EBD /* AppDelegate.h */,
+				B09137E919F9838B00A21EBD /* AppDelegate.m */,
+				B09137EB19F9838B00A21EBD /* ViewController.h */,
+				B09137EC19F9838B00A21EBD /* ViewController.m */,
+				B09137EE19F9838B00A21EBD /* Main.storyboard */,
+				B09137F119F9838B00A21EBD /* Images.xcassets */,
+				B09137F319F9838B00A21EBD /* LaunchScreen.xib */,
+				B09137E419F9838B00A21EBD /* Supporting Files */,
+			);
+			path = MiniatureOctoRobot;
+			sourceTree = "<group>";
+		};
+		B09137E419F9838B00A21EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09137E519F9838B00A21EBD /* Info.plist */,
+				B09137E619F9838B00A21EBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B09137FD19F9838B00A21EBD /* MiniatureOctoRobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */,
+				B09137FE19F9838B00A21EBD /* Supporting Files */,
+			);
+			path = MiniatureOctoRobotTests;
+			sourceTree = "<group>";
+		};
+		B09137FE19F9838B00A21EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B09137FF19F9838B00A21EBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B09137E019F9838B00A21EBD /* MiniatureOctoRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B091380419F9838B00A21EBD /* Build configuration list for PBXNativeTarget "MiniatureOctoRobot" */;
+			buildPhases = (
+				B09137DD19F9838B00A21EBD /* Sources */,
+				B09137DE19F9838B00A21EBD /* Frameworks */,
+				B09137DF19F9838B00A21EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniatureOctoRobot;
+			productName = MiniatureOctoRobot;
+			productReference = B09137E119F9838B00A21EBD /* MiniatureOctoRobot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B09137F919F9838B00A21EBD /* MiniatureOctoRobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B091380719F9838B00A21EBD /* Build configuration list for PBXNativeTarget "MiniatureOctoRobotTests" */;
+			buildPhases = (
+				B09137F619F9838B00A21EBD /* Sources */,
+				B09137F719F9838B00A21EBD /* Frameworks */,
+				B09137F819F9838B00A21EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09137FC19F9838B00A21EBD /* PBXTargetDependency */,
+			);
+			name = MiniatureOctoRobotTests;
+			productName = MiniatureOctoRobotTests;
+			productReference = B09137FA19F9838B00A21EBD /* MiniatureOctoRobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B09137D919F9838B00A21EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ariel Rodriguez";
+				TargetAttributes = {
+					B09137E019F9838B00A21EBD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					B09137F919F9838B00A21EBD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = B09137E019F9838B00A21EBD;
+					};
+				};
+			};
+			buildConfigurationList = B09137DC19F9838B00A21EBD /* Build configuration list for PBXProject "MiniatureOctoRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B09137D819F9838B00A21EBD;
+			productRefGroup = B09137E219F9838B00A21EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B09137E019F9838B00A21EBD /* MiniatureOctoRobot */,
+				B09137F919F9838B00A21EBD /* MiniatureOctoRobotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B09137DF19F9838B00A21EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09137F019F9838B00A21EBD /* Main.storyboard in Resources */,
+				B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */,
+				B09137F219F9838B00A21EBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09137F819F9838B00A21EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B09137DD19F9838B00A21EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09137ED19F9838B00A21EBD /* ViewController.m in Sources */,
+				B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */,
+				B09137E719F9838B00A21EBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09137F619F9838B00A21EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B091380119F9838B00A21EBD /* MiniatureOctoRobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B09137FC19F9838B00A21EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B09137E019F9838B00A21EBD /* MiniatureOctoRobot */;
+			targetProxy = B09137FB19F9838B00A21EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B09137EE19F9838B00A21EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09137EF19F9838B00A21EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B09137F319F9838B00A21EBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09137F419F9838B00A21EBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B091380219F9838B00A21EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B091380319F9838B00A21EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B091380519F9838B00A21EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniatureOctoRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B091380619F9838B00A21EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniatureOctoRobot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B091380819F9838B00A21EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniatureOctoRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniatureOctoRobot.app/MiniatureOctoRobot";
+			};
+			name = Debug;
+		};
+		B091380919F9838B00A21EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MiniatureOctoRobotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniatureOctoRobot.app/MiniatureOctoRobot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B09137DC19F9838B00A21EBD /* Build configuration list for PBXProject "MiniatureOctoRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B091380219F9838B00A21EBD /* Debug */,
+				B091380319F9838B00A21EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B091380419F9838B00A21EBD /* Build configuration list for PBXNativeTarget "MiniatureOctoRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B091380519F9838B00A21EBD /* Debug */,
+				B091380619F9838B00A21EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B091380719F9838B00A21EBD /* Build configuration list for PBXNativeTarget "MiniatureOctoRobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B091380819F9838B00A21EBD /* Debug */,
+				B091380919F9838B00A21EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B09137D919F9838B00A21EBD /* Project object */;
+}
