@@ -14,6 +14,7 @@
 		B09137F219F9838B00A21EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09137F119F9838B00A21EBD /* Images.xcassets */; };
 		B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09137F319F9838B00A21EBD /* LaunchScreen.xib */; };
 		B091380119F9838B00A21EBD /* MiniatureOctoRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */; };
+		B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FD719F9AD8500163147 /* OnboardingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B09137FA19F9838B00A21EBD /* MiniatureOctoRobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniatureOctoRobotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09137FF19F9838B00A21EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniatureOctoRobotTests.m; sourceTree = "<group>"; };
+		B0D04FD619F9AD8500163147 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		B0D04FD719F9AD8500163147 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B09137F119F9838B00A21EBD /* Images.xcassets */,
 				B09137F319F9838B00A21EBD /* LaunchScreen.xib */,
 				B09137E419F9838B00A21EBD /* Supporting Files */,
+				B0D04FD619F9AD8500163147 /* OnboardingViewController.h */,
+				B0D04FD719F9AD8500163147 /* OnboardingViewController.m */,
 			);
 			path = MiniatureOctoRobot;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				B09137ED19F9838B00A21EBD /* ViewController.m in Sources */,
 				B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */,
 				B09137E719F9838B00A21EBD /* main.m in Sources */,
+				B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				B091380619F9838B00A21EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B091380719F9838B00A21EBD /* Build configuration list for PBXNativeTarget "MiniatureOctoRobotTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				B091380919F9838B00A21EBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
