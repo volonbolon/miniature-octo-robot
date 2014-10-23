@@ -15,6 +15,9 @@
 		B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09137F319F9838B00A21EBD /* LaunchScreen.xib */; };
 		B091380119F9838B00A21EBD /* MiniatureOctoRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */; };
 		B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FD719F9AD8500163147 /* OnboardingViewController.m */; };
+		B0D04FDE19F9BFED00163147 /* red.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0D04FDD19F9BFED00163147 /* red.bundle */; };
+		B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */; };
+		B0D04FE519F9C33000163147 /* NSBundle+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE419F9C33000163147 /* NSBundle+Config.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,11 @@
 		B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniatureOctoRobotTests.m; sourceTree = "<group>"; };
 		B0D04FD619F9AD8500163147 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		B0D04FD719F9AD8500163147 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
+		B0D04FDD19F9BFED00163147 /* red.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = red.bundle; sourceTree = "<group>"; };
+		B0D04FE019F9C2F500163147 /* UIColor+Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Stylesheet.h"; sourceTree = "<group>"; };
+		B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Stylesheet.m"; sourceTree = "<group>"; };
+		B0D04FE319F9C33000163147 /* NSBundle+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Config.h"; sourceTree = "<group>"; };
+		B0D04FE419F9C33000163147 /* NSBundle+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Config.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +92,7 @@
 		B09137E319F9838B00A21EBD /* MiniatureOctoRobot */ = {
 			isa = PBXGroup;
 			children = (
+				B0D04FDD19F9BFED00163147 /* red.bundle */,
 				B09137E819F9838B00A21EBD /* AppDelegate.h */,
 				B09137E919F9838B00A21EBD /* AppDelegate.m */,
 				B09137EB19F9838B00A21EBD /* ViewController.h */,
@@ -94,6 +103,10 @@
 				B09137E419F9838B00A21EBD /* Supporting Files */,
 				B0D04FD619F9AD8500163147 /* OnboardingViewController.h */,
 				B0D04FD719F9AD8500163147 /* OnboardingViewController.m */,
+				B0D04FE019F9C2F500163147 /* UIColor+Stylesheet.h */,
+				B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */,
+				B0D04FE319F9C33000163147 /* NSBundle+Config.h */,
+				B0D04FE419F9C33000163147 /* NSBundle+Config.m */,
 			);
 			path = MiniatureOctoRobot;
 			sourceTree = "<group>";
@@ -204,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D04FDE19F9BFED00163147 /* red.bundle in Resources */,
 				B09137F019F9838B00A21EBD /* Main.storyboard in Resources */,
 				B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */,
 				B09137F219F9838B00A21EBD /* Images.xcassets in Resources */,
@@ -224,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D04FE519F9C33000163147 /* NSBundle+Config.m in Sources */,
 				B09137ED19F9838B00A21EBD /* ViewController.m in Sources */,
 				B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */,
+				B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */,
 				B09137E719F9838B00A21EBD /* main.m in Sources */,
 				B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */,
 			);
