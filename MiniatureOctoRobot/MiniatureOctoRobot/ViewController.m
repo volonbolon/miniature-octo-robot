@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "OnboardingViewController.h"
+#import "UIColor+Stylesheet.h"
 
 @interface ViewController () <OnboardingViewControllerDelegate>
 @property BOOL onboardingShown;
@@ -60,8 +61,8 @@
 - (void)onboardingChoosen:(OnboardingSelection)onboardingSelection
 {
     
-    [[[self navigationController] navigationBar] setBarTintColor:[UIColor redColor]];
-    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor navbarTintColor]];
+
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
