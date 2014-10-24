@@ -29,7 +29,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         
-        NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"red" ofType:@"bundle"];
+        NSString *bundlePath = [NSBundle configPath];
         configBundle = [NSBundle bundleWithPath:bundlePath];
         
     });

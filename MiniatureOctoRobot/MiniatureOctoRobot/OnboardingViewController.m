@@ -27,6 +27,18 @@
     NSError *error = nil;
     NSFileManager *dfm = [NSFileManager defaultManager];
     
+    if ( [dfm fileExistsAtPath:configPath] ) {
+        
+        NSError *deleteError = nil;
+        BOOL deleteSuccess = [dfm removeItemAtPath:configPath error:&deleteError];
+        if ( !deleteSuccess ) {
+            
+            NSLog(@"%@", deleteError);
+            
+        }
+        
+    }
+    
     BOOL success = [dfm moveItemAtPath:[docsPath stringByAppendingPathComponent:@"red"] toPath:configPath error:&error];
     
     if ( !success ) {
