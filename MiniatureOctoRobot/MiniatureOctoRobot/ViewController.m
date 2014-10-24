@@ -63,7 +63,7 @@
 }
 
 #pragma mark - OnboardingViewControllerDelegate
-- (void)onboardingChoosen:(OnboardingSelection)onboardingSelection
+- (void)onboardingChoosen
 {
     
     [[UINavigationBar appearance] setBarTintColor:[UIColor navbarTintColor]];

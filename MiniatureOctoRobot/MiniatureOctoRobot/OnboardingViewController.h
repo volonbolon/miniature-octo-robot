@@ -16,7 +16,7 @@ typedef NS_ENUM(NSUInteger, OnboardingSelection) {
 
 @protocol OnboardingViewControllerDelegate <NSObject>
 
-- (void)onboardingChoosen:(OnboardingSelection)onboardingSelection;
+- (void)onboardingChoosen;
 
 @end
 

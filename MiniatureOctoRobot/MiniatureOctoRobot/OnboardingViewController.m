@@ -16,13 +16,29 @@
 
 @implementation OnboardingViewController
 
-- (IBAction)buttonTapped:(id)sender {
+- (void)unzipItemWithTag:(OnboardingSelection)tag
+{
+    
+    NSString *zipName = nil;
+    switch ( tag ) {
+        case OnboardingSelectionPurple:
+            zipName = @"purple";
+            break;
+            
+        case OnboardingSelectionRed:
+            zipName = @"red";
+            break;
+            
+        case OnboardingSelectionGreen:
+            zipName = @"green";
+            break;
+    }
     
     NSString *configPath = [NSBundle configPath];
     NSString *docsPath = [configPath stringByDeletingLastPathComponent];
-    NSString *zippedConfigPath = [[NSBundle mainBundle] pathForResource:@"red" ofType:@"zip"];
+    NSString *zippedConfigPath = [[NSBundle mainBundle] pathForResource:zipName ofType:@"zip"];
     
-   [SSZipArchive unzipFileAtPath:zippedConfigPath toDestination:docsPath];
+    [SSZipArchive unzipFileAtPath:zippedConfigPath toDestination:docsPath];
     
     NSError *error = nil;
     NSFileManager *dfm = [NSFileManager defaultManager];
@@ -39,15 +55,21 @@
         
     }
     
-    BOOL success = [dfm moveItemAtPath:[docsPath stringByAppendingPathComponent:@"red"] toPath:configPath error:&error];
+    BOOL success = [dfm moveItemAtPath:[docsPath stringByAppendingPathComponent:zipName] toPath:configPath error:&error];
     
     if ( !success ) {
         
         NSLog(@"%@",error);
         
     }
+}
+
+- (IBAction)buttonTapped:(id)sender {
     
-    [[self delegate] onboardingChoosen:[(UIView *)sender tag]];
+    NSUInteger tag = [(UIView *)sender tag];
+    [self unzipItemWithTag:(OnboardingSelection)tag];
+    
+    [[self delegate] onboardingChoosen];
     
 }
 @end
