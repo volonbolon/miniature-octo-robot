@@ -9,9 +9,12 @@
 #import "ViewController.h"
 #import "OnboardingViewController.h"
 #import "UIColor+Stylesheet.h"
+#import "UIFont+Stylesheet.h"
 
 @interface ViewController () <OnboardingViewControllerDelegate>
 @property BOOL onboardingShown;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @end
 
 @implementation ViewController
@@ -62,6 +65,8 @@
 {
     
     [[UINavigationBar appearance] setBarTintColor:[UIColor navbarTintColor]];
+    
+    [[UITextField appearance] setFont:[UIFont fontForTextField]];
 
     [self dismissViewControllerAnimated:YES completion:NULL];
     

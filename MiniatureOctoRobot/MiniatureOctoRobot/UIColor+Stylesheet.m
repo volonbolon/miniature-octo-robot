@@ -77,8 +77,16 @@
 + (instancetype)navbarTintColor
 {
     
-    NSDictionary *config = [[NSBundle configBundle] config];
-    return [UIColor colorWithHexString:[config objectForKey:@"navbar_color"]];
+    __block UIColor *navbarTintColor = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+        NSDictionary *config = [[NSBundle configBundle] config];
+        navbarTintColor = [UIColor colorWithHexString:[config objectForKey:@"navbar_color"]];
+        
+    });
+    
+    return navbarTintColor;
     
 }
 @end
