@@ -1,13 +1,13 @@
 //
-//  UIFont+Stylesheet.h
+//  UIImage+Stylesheet.m
 //  MiniatureOctoRobot
 //
 //  Created by Ariel Rodriguez on 10/23/14.
 //  Copyright (c) 2014 Ariel Rodriguez. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "UIImage+Stylesheet.h"
 
-@interface UIFont (Stylesheet)
-+ (instancetype)fontForTextField;
+@implementation UIImage (Stylesheet)
+
 @end

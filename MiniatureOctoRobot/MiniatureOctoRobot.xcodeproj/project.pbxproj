@@ -19,6 +19,7 @@
 		B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */; };
 		B0D04FE519F9C33000163147 /* NSBundle+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE419F9C33000163147 /* NSBundle+Config.m */; };
 		B0D04FE819F9CD6A00163147 /* UIFont+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE719F9CD6A00163147 /* UIFont+Stylesheet.m */; };
+		B0D04FEB19F9CF6D00163147 /* UIImage+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FEA19F9CF6D00163147 /* UIImage+Stylesheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B0D04FE419F9C33000163147 /* NSBundle+Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Config.m"; sourceTree = "<group>"; };
 		B0D04FE619F9CD6A00163147 /* UIFont+Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Stylesheet.h"; sourceTree = "<group>"; };
 		B0D04FE719F9CD6A00163147 /* UIFont+Stylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Stylesheet.m"; sourceTree = "<group>"; };
+		B0D04FE919F9CF6D00163147 /* UIImage+Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Stylesheet.h"; sourceTree = "<group>"; };
+		B0D04FEA19F9CF6D00163147 /* UIImage+Stylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stylesheet.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				B0D04FE419F9C33000163147 /* NSBundle+Config.m */,
 				B0D04FE619F9CD6A00163147 /* UIFont+Stylesheet.h */,
 				B0D04FE719F9CD6A00163147 /* UIFont+Stylesheet.m */,
+				B0D04FE919F9CF6D00163147 /* UIImage+Stylesheet.h */,
+				B0D04FEA19F9CF6D00163147 /* UIImage+Stylesheet.m */,
 			);
 			path = MiniatureOctoRobot;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				B09137ED19F9838B00A21EBD /* ViewController.m in Sources */,
 				B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */,
 				B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */,
+				B0D04FEB19F9CF6D00163147 /* UIImage+Stylesheet.m in Sources */,
 				B09137E719F9838B00A21EBD /* main.m in Sources */,
 				B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */,
 			);

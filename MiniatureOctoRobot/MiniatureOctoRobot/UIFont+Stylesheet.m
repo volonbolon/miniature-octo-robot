@@ -10,7 +10,7 @@
 #import "NSBundle+Config.h"
 
 @implementation UIFont (Stylesheet)
-+ (UIFont *)fontForTextField
++ (instancetype)fontForTextField
 {
     
     __block UIFont *fontForTextField = nil;

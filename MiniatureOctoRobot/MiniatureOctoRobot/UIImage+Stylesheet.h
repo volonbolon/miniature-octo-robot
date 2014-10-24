@@ -1,5 +1,5 @@
 //
-//  UIFont+Stylesheet.h
+//  UIImage+Stylesheet.h
 //  MiniatureOctoRobot
 //
 //  Created by Ariel Rodriguez on 10/23/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIFont (Stylesheet)
-+ (instancetype)fontForTextField;
+@interface UIImage (Stylesheet)
+
 @end

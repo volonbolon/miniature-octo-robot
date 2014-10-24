@@ -1,5 +1,6 @@
 {
-    "navbar_color":"#00ff00",
+    "title":"Red",
+    "navbar_color":"#f00",
     "textfield_font":{"name":"AmericanTypewriter","size":12.0},
-    "images":{"image_name":"red.jpg"}
+    "images":{"main_image_name":"red.jpg"}
 }
