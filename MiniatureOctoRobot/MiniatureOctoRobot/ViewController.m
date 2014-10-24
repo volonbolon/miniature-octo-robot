@@ -10,6 +10,8 @@
 #import "OnboardingViewController.h"
 #import "UIColor+Stylesheet.h"
 #import "UIFont+Stylesheet.h"
+#import "UIImage+Stylesheet.h"
+#import "NSString+ConfigurableStrings.h"
 
 @interface ViewController () <OnboardingViewControllerDelegate>
 @property BOOL onboardingShown;
@@ -67,7 +69,11 @@
     [[UINavigationBar appearance] setBarTintColor:[UIColor navbarTintColor]];
     
     [[UITextField appearance] setFont:[UIFont fontForTextField]];
-
+    
+    [[self imageView] setImage:[UIImage mainImage]];
+    
+    [self setTitle:[NSString title]];
+    
     [self dismissViewControllerAnimated:YES completion:NULL];
     
 }
