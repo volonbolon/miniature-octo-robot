@@ -15,12 +15,18 @@
 		B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B09137F319F9838B00A21EBD /* LaunchScreen.xib */; };
 		B091380119F9838B00A21EBD /* MiniatureOctoRobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */; };
 		B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FD719F9AD8500163147 /* OnboardingViewController.m */; };
-		B0D04FDE19F9BFED00163147 /* red.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0D04FDD19F9BFED00163147 /* red.bundle */; };
+		B0D04FDC19F9BCE400163147 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D04FDB19F9BCE400163147 /* libz.dylib */; };
 		B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */; };
 		B0D04FE519F9C33000163147 /* NSBundle+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE419F9C33000163147 /* NSBundle+Config.m */; };
 		B0D04FE819F9CD6A00163147 /* UIFont+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FE719F9CD6A00163147 /* UIFont+Stylesheet.m */; };
 		B0D04FEB19F9CF6D00163147 /* UIImage+Stylesheet.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FEA19F9CF6D00163147 /* UIImage+Stylesheet.m */; };
 		B0D04FEE19F9D2C900163147 /* NSString+ConfigurableStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D04FED19F9D2C900163147 /* NSString+ConfigurableStrings.m */; };
+		B0D04FF019F9D3B000163147 /* red.zip in Resources */ = {isa = PBXBuildFile; fileRef = B0D04FEF19F9D3B000163147 /* red.zip */; };
+		B0D0500D19F9D74700163147 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D0500319F9D74700163147 /* ioapi.c */; };
+		B0D0500E19F9D74700163147 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D0500519F9D74700163147 /* mztools.c */; };
+		B0D0500F19F9D74700163147 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B0D0500819F9D74700163147 /* SSZipArchive.m */; };
+		B0D0501019F9D74700163147 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D0500919F9D74700163147 /* unzip.c */; };
+		B0D0501119F9D74700163147 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = B0D0500B19F9D74700163147 /* zip.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +55,7 @@
 		B091380019F9838B00A21EBD /* MiniatureOctoRobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniatureOctoRobotTests.m; sourceTree = "<group>"; };
 		B0D04FD619F9AD8500163147 /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		B0D04FD719F9AD8500163147 /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
-		B0D04FDD19F9BFED00163147 /* red.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = red.bundle; sourceTree = "<group>"; };
+		B0D04FDB19F9BCE400163147 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		B0D04FE019F9C2F500163147 /* UIColor+Stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Stylesheet.h"; sourceTree = "<group>"; };
 		B0D04FE119F9C2F500163147 /* UIColor+Stylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Stylesheet.m"; sourceTree = "<group>"; };
 		B0D04FE319F9C33000163147 /* NSBundle+Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Config.h"; sourceTree = "<group>"; };
@@ -60,6 +66,18 @@
 		B0D04FEA19F9CF6D00163147 /* UIImage+Stylesheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stylesheet.m"; sourceTree = "<group>"; };
 		B0D04FEC19F9D2C900163147 /* NSString+ConfigurableStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ConfigurableStrings.h"; sourceTree = "<group>"; };
 		B0D04FED19F9D2C900163147 /* NSString+ConfigurableStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ConfigurableStrings.m"; sourceTree = "<group>"; };
+		B0D04FEF19F9D3B000163147 /* red.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = red.zip; sourceTree = "<group>"; };
+		B0D0500219F9D74700163147 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		B0D0500319F9D74700163147 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		B0D0500419F9D74700163147 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		B0D0500519F9D74700163147 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		B0D0500619F9D74700163147 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		B0D0500719F9D74700163147 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		B0D0500819F9D74700163147 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		B0D0500919F9D74700163147 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		B0D0500A19F9D74700163147 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		B0D0500B19F9D74700163147 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		B0D0500C19F9D74700163147 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D04FDC19F9BCE400163147 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 		B09137D819F9838B00A21EBD = {
 			isa = PBXGroup;
 			children = (
+				B0D04FDB19F9BCE400163147 /* libz.dylib */,
 				B09137E319F9838B00A21EBD /* MiniatureOctoRobot */,
 				B09137FD19F9838B00A21EBD /* MiniatureOctoRobotTests */,
 				B09137E219F9838B00A21EBD /* Products */,
@@ -101,7 +121,8 @@
 		B09137E319F9838B00A21EBD /* MiniatureOctoRobot */ = {
 			isa = PBXGroup;
 			children = (
-				B0D04FDD19F9BFED00163147 /* red.bundle */,
+				B0D04FF119F9D71800163147 /* SSZipArchive */,
+				B0D04FEF19F9D3B000163147 /* red.zip */,
 				B09137E819F9838B00A21EBD /* AppDelegate.h */,
 				B09137E919F9838B00A21EBD /* AppDelegate.m */,
 				B09137EB19F9838B00A21EBD /* ViewController.h */,
@@ -150,6 +171,24 @@
 				B09137FF19F9838B00A21EBD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0D04FF119F9D71800163147 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				B0D0500219F9D74700163147 /* crypt.h */,
+				B0D0500319F9D74700163147 /* ioapi.c */,
+				B0D0500419F9D74700163147 /* ioapi.h */,
+				B0D0500519F9D74700163147 /* mztools.c */,
+				B0D0500619F9D74700163147 /* mztools.h */,
+				B0D0500719F9D74700163147 /* SSZipArchive.h */,
+				B0D0500819F9D74700163147 /* SSZipArchive.m */,
+				B0D0500919F9D74700163147 /* unzip.c */,
+				B0D0500A19F9D74700163147 /* unzip.h */,
+				B0D0500B19F9D74700163147 /* zip.c */,
+				B0D0500C19F9D74700163147 /* zip.h */,
+			);
+			name = SSZipArchive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +271,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0D04FDE19F9BFED00163147 /* red.bundle in Resources */,
 				B09137F019F9838B00A21EBD /* Main.storyboard in Resources */,
 				B09137F519F9838B00A21EBD /* LaunchScreen.xib in Resources */,
+				B0D04FF019F9D3B000163147 /* red.zip in Resources */,
 				B09137F219F9838B00A21EBD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,12 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D0501019F9D74700163147 /* unzip.c in Sources */,
 				B0D04FE519F9C33000163147 /* NSBundle+Config.m in Sources */,
 				B0D04FE819F9CD6A00163147 /* UIFont+Stylesheet.m in Sources */,
+				B0D0500E19F9D74700163147 /* mztools.c in Sources */,
+				B0D0500F19F9D74700163147 /* SSZipArchive.m in Sources */,
 				B09137ED19F9838B00A21EBD /* ViewController.m in Sources */,
+				B0D0501119F9D74700163147 /* zip.c in Sources */,
 				B0D04FEE19F9D2C900163147 /* NSString+ConfigurableStrings.m in Sources */,
 				B09137EA19F9838B00A21EBD /* AppDelegate.m in Sources */,
 				B0D04FE219F9C2F500163147 /* UIColor+Stylesheet.m in Sources */,
+				B0D0500D19F9D74700163147 /* ioapi.c in Sources */,
 				B0D04FEB19F9CF6D00163147 /* UIImage+Stylesheet.m in Sources */,
 				B09137E719F9838B00A21EBD /* main.m in Sources */,
 				B0D04FD819F9AD8500163147 /* OnboardingViewController.m in Sources */,

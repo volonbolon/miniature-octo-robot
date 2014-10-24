@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSBundle (Config)
++ (NSString *)configPath;
 + (instancetype)configBundle;
 - (NSDictionary *)config;
 @end

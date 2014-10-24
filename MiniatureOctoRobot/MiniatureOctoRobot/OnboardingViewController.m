@@ -7,6 +7,8 @@
 //
 
 #import "OnboardingViewController.h"
+#import "SSZipArchive.h"
+#import "NSBundle+Config.h"
 
 @interface OnboardingViewController ()
 - (IBAction)buttonTapped:(id)sender;
@@ -15,6 +17,23 @@
 @implementation OnboardingViewController
 
 - (IBAction)buttonTapped:(id)sender {
+    
+    NSString *configPath = [NSBundle configPath];
+    NSString *docsPath = [configPath stringByDeletingLastPathComponent];
+    NSString *zippedConfigPath = [[NSBundle mainBundle] pathForResource:@"red" ofType:@"zip"];
+    
+   [SSZipArchive unzipFileAtPath:zippedConfigPath toDestination:docsPath];
+    
+    NSError *error = nil;
+    NSFileManager *dfm = [NSFileManager defaultManager];
+    
+    BOOL success = [dfm moveItemAtPath:[docsPath stringByAppendingPathComponent:@"red"] toPath:configPath error:&error];
+    
+    if ( !success ) {
+        
+        NSLog(@"%@",error);
+        
+    }
     
     [[self delegate] onboardingChoosen:[(UIView *)sender tag]];
     

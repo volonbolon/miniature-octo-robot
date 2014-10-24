@@ -9,6 +9,18 @@
 #import "NSBundle+Config.h"
 
 @implementation NSBundle (Config)
++ (NSString *)configPath
+{
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *basePath = [paths firstObject];
+    
+    NSString *configPath = [basePath stringByAppendingPathComponent:@"config.bundle"];
+    
+    return configPath;
+    
+}
+
 + (instancetype)configBundle
 {
     
